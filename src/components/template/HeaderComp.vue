@@ -35,11 +35,11 @@
       </div>
       <div class="segundotituloSegundaParte">MONTAMOS SUA VIAGEM</div>
       <div class="segundotextoSegundaParte">
-        Você sabia que a Sul turismo monta viagens personalizadas para grupos?
-        Quer fazer aquela viagem em grupo? Montar aquela viagem da empresa para
-        curtir um dia especial? Levar a família para conhecer um lugar novo? A
-        Sul turismo, te ajuda a montar a sua viagem em grupo! Solicite um
-        orçamento via whatsApp abaixo
+        Você sabia que a style Sul turismo monta viagens personalizadas para
+        grupos? Quer fazer aquela viagem em grupo? Montar aquela viagem da
+        empresa para curtir um dia especial? Levar a família para conhecer um
+        lugar novo? A Sul turismo, te ajuda a montar a sua viagem em grupo!
+        Solicite um orçamento via whatsApp abaixo
       </div>
     </div>
     <div class="rightSegundaParte">
@@ -78,6 +78,9 @@
       <input class="inputs" type="text" />
       <div class="subtituloFormulario">TELEFONE CONTATO:</div>
       <input class="inputs" type="text" />
+      <div>
+        <button class="enviar">ENVIAR</button>
+      </div>
     </div>
   </div>
 </template>
@@ -258,7 +261,7 @@ hr {
   padding: 8% 0 0 0;
 }
 .terceiraParte {
-  height: 800px;
+  height: 1000px;
   display: flex;
 }
 .cotacao {
@@ -274,10 +277,10 @@ hr {
 .formulario {
   border-radius: 30px;
   width: 575px;
-  height: 727px;
+  height: 827px;
   box-sizing: border-box;
   border: 2px solid #c95c00;
-  margin: 5% 0 0 15%;
+  margin: 5% 0 0 20%;
 }
 .tituloFormulario {
   font-family: "Arimo";
@@ -304,5 +307,18 @@ hr {
   border-style: none none solid none;
   width: 425px;
   border-color: #ffad68;
+}
+.enviar {
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  border-color: #c95c00;
+  margin: 10% 0 0 35%;
+  background: #ffad68;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
 }
 </style>
