@@ -2,17 +2,17 @@
   <div class="primeiraParte">
     <div class="content">
       <div class="jpg">
-        <img class="logosul" src="logoSulTurismo.jpeg" />
+        <img class="logosul" src="src/imagens/logoSulTurismo.jpeg" />
       </div>
       <div class="infoHeader">
         <div>
           <span>Quem somos?</span>
         </div>
         <div>
-          <span>Contato</span>
+          <span>Nossos Serviços</span>
         </div>
         <div>
-          <span>Nossos Serviços</span>
+          <span>Contato</span>
         </div>
       </div>
     </div>
