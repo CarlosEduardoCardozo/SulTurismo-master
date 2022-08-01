@@ -6,13 +6,13 @@
       </div>
       <div class="infoHeader">
         <div>
-          <span>Quem somos?</span>
+          <span class="button item1">Quem somos?</span>
         </div>
         <div>
-          <span>Contato</span>
+          <span class="button item2">Contato</span>
         </div>
         <div>
-          <span>Nossos Serviços</span>
+          <span class="button item3">Nossos Serviços</span>
         </div>
       </div>
     </div>
@@ -117,26 +117,76 @@ body {
 .logosul {
   width: 75px;
 }
-.infoHeader {
-  color: #ffff;
-  justify-content: space-between;
-  margin: 0 10% 0 0;
-  text-transform: uppercase;
+.infoHeader{
   display: flex;
-  font-family: "Arimo";
-  font-style: normal;
-  font-weight: bold;
+  justify-content: space-between;
+
+  position: relative;
+
+  padding: 0 12px;
+
+  font-family: 'Arimo';
   font-size: 22px;
-  line-height: 25px;
-}
-.infoHeader :hover {
-  background-color: #fa943a;
+  line-height: 28px;
+  font-weight: 300;
+  align-items: center;
+  color: #F6F6F6;
+  text-decoration: none;
+  
+  overflow: hidden;
+  cursor: pointer;  
+  z-index: 1;
   height: 100%;
-  color: #703500;
 }
 .infoHeader span {
-  padding: 15px;
+  padding: 24px;
 }
+
+.button::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+  background-image: linear-gradient(to right, #FDA65C , #D76300);
+
+  transition: all .5s;
+  z-index: -1;
+}
+.item1::before{
+  width: 0;
+  height: 100%;
+
+  top: 0%;
+  left: 0%;
+}
+
+.item1:hover::before{
+  width: 35%;
+}
+.item2::before{
+  width: 0;
+  height: 100%;
+
+  top: 0%;
+  left: 35%;
+}
+.item2:hover::before{
+  width: 25%;
+}
+.item3::before{
+  width: 0;
+  height: 100%;
+
+  top: 0%;
+  left: 60%;
+}
+
+.item3:hover::before{
+  width: 35%;
+}
+
 .info1 {
   background: rgba(0, 0, 0, 0.72);
   border-radius: 30px;
